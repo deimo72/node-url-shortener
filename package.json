@@ -9,22 +9,23 @@
     "url": "http://github.com/dotzero/node-url-shortener"
   },
   "dependencies": {
-    "base58": "^1.0.1",
-    "body-parser": "^1.18.2",
+    "base58": "*",
+    "body-parser": "*",
     "cors": "^2.8.4",
-    "ejs": "^2.5.8",
-    "express": "^4.16.3",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
     "method-override": "^2.3.10",
     "morgan": "^1.9.0",
     "redis": "^2.8.0",
-    "yargs": "^11.0.0"
+    "uuid": "^9.0.1",
+    "yargs": "^17.7.2"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
     "fakeredis": "^1.0.3",
-    "mocha": "^2.4.5",
-    "superagent": "^2.0.0-alpha.3",
-    "superagent-mocker": "^0.4.0"
+    "mocha": "^10.4.0",
+    "superagent": "^8.1.2",
+    "superagent-mocker": "^0.5.2"
   },
   "keywords": [
     "url",
